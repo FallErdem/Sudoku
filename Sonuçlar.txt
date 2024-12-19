@@ -1,0 +1,16 @@
+İsim - Zorluk - Başarı Süresi
+Erdo - kolay
+a - kolay
+asda - kolay -  başarısız
+
+asd - kolay
+asdasd - kolay
+aaaaaaaa - kolay - 00:30
+
+asdasd - kolay
+asd - kolay - 00:24
+
+yeteer - kolay - 00:29
+
+d - kolay
+a - kolay - Yeni oyuna geçildi 

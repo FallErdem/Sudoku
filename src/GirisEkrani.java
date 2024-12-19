@@ -11,14 +11,14 @@ class GirisEkrani  implements ActionListener{
     static String zorlukTutucu="kolay";
     JFrame frame = new JFrame("Sudoku");
     JTextField isim = new JTextField();
-    ImageIcon icon = new ImageIcon("Sudoku/image/sas.png");
-    ImageIcon iconic = new ImageIcon("Sudoku/image/giris.jpg");
+    ImageIcon icon = new ImageIcon("image/sas.png");
+    ImageIcon iconic = new ImageIcon("image/giris.png");
     JLabel label = new JLabel();
     JLabel label1 = new JLabel();
-    String pathBackgroun= Paths.get("src", "Sudoku/image/background.jpg").toString();
+    String pathBackgroun= Paths.get("src", "image/background.jpg").toString();
     JButton buton = new JButton("Giriş");
     JComboBox zorluklar = new JComboBox(zorluk);
-    JLabel backgroundLabel = new JLabel(new ImageIcon("Sudoku/image/background.jpg"));
+    JLabel backgroundLabel = new JLabel(new ImageIcon("image/background.jpg"));
     String adi;
     GirisEkrani() {
         // label ve label1 oluşturuldu
@@ -91,7 +91,7 @@ class GirisEkrani  implements ActionListener{
                 }
             }catch (IllegalArgumentException exception){
                 System.out.println("İsim boş bırakılamaz!!!");
-                JOptionPane.showMessageDialog(null, "Kullanıcı adı boş bırakılamaz!");
+                JOptionPane.showMessageDialog(null, "Kullanıcı adı boş bırakılamaz");
             }
         }
     }
